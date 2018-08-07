@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+     ViewController *rootVC = [[ViewController alloc] init];
+    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    navC.view.backgroundColor = [UIColor whiteColor];
+    navC.navigationBar.backgroundColor = [UIColor whiteColor];
+    //将navC设置为window设置根视图控制器
+    [self.window setRootViewController:navC];
     return YES;
 }
 

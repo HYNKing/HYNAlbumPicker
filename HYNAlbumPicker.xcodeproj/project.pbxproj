@@ -15,6 +15,25 @@
 		3CF8C6E6211937C6009923BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6E5211937C6009923BE /* main.m */; };
 		3CF8C6F0211937C6009923BE /* HYNAlbumPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6EF211937C6009923BE /* HYNAlbumPickerTests.m */; };
 		3CF8C6FB211937C6009923BE /* HYNAlbumPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6FA211937C6009923BE /* HYNAlbumPickerUITests.m */; };
+		3CF8C70E21194731009923BE /* HYNAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C70D21194731009923BE /* HYNAlbum.m */; };
+		3CF8C71121194768009923BE /* HYNAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C71021194768009923BE /* HYNAlbumModel.m */; };
+		3CF8C71421194782009923BE /* HYNDelegateDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C71321194782009923BE /* HYNDelegateDataSource.m */; };
+		3CF8C71A21194806009923BE /* HYNAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C71921194806009923BE /* HYNAlbumCell.m */; };
+		3CF8C71D21194827009923BE /* HYNAssetPreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C71C21194827009923BE /* HYNAssetPreviewItem.m */; };
+		3CF8C72021194847009923BE /* HYNAssetPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C71F21194847009923BE /* HYNAssetPreviewView.m */; };
+		3CF8C72321194865009923BE /* HYNPickerButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C72221194865009923BE /* HYNPickerButtomView.m */; };
+		3CF8C7262119489D009923BE /* HYNAlbumCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C7252119489D009923BE /* HYNAlbumCatalogViewController.m */; };
+		3CF8C729211948D1009923BE /* HYNAlbumCatalogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C728211948D1009923BE /* HYNAlbumCatalogCell.m */; };
+		3CF8C72C211948FF009923BE /* HYNAlbumPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C72B211948FF009923BE /* HYNAlbumPickerViewController.m */; };
+		3CF8C72F21194CC4009923BE /* HYNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C72E21194CC4009923BE /* HYNNavigationController.m */; };
+		3CF8C73221196991009923BE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8C73121196990009923BE /* AssetsLibrary.framework */; };
+		3CF8C73521196AC2009923BE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF8C73421196AC2009923BE /* AssetsLibrary.framework */; };
+		3CF8C73721196BD2009923BE /* AlbumPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C73621196BD2009923BE /* AlbumPicker.bundle */; };
+		3CF8C73A21197859009923BE /* HYNAssetPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C73921197859009923BE /* HYNAssetPreviewViewController.m */; };
+		3CF8C73E211997E3009923BE /* back_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C73C211997E3009923BE /* back_01@2x.png */; };
+		3CF8C73F211997E3009923BE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C73D211997E3009923BE /* more.png */; };
+		3CF8C7422119994D009923BE /* select_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C7402119994D009923BE /* select_04@2x.png */; };
+		3CF8C7432119994D009923BE /* table_UnSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C7412119994D009923BE /* table_UnSelect@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +70,37 @@
 		3CF8C6F6211937C6009923BE /* HYNAlbumPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYNAlbumPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF8C6FA211937C6009923BE /* HYNAlbumPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumPickerUITests.m; sourceTree = "<group>"; };
 		3CF8C6FC211937C6009923BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF8C70C21194731009923BE /* HYNAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbum.h; sourceTree = "<group>"; };
+		3CF8C70D21194731009923BE /* HYNAlbum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbum.m; sourceTree = "<group>"; };
+		3CF8C70F21194768009923BE /* HYNAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbumModel.h; sourceTree = "<group>"; };
+		3CF8C71021194768009923BE /* HYNAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumModel.m; sourceTree = "<group>"; };
+		3CF8C71221194782009923BE /* HYNDelegateDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNDelegateDataSource.h; sourceTree = "<group>"; };
+		3CF8C71321194782009923BE /* HYNDelegateDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNDelegateDataSource.m; sourceTree = "<group>"; };
+		3CF8C71821194806009923BE /* HYNAlbumCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbumCell.h; sourceTree = "<group>"; };
+		3CF8C71921194806009923BE /* HYNAlbumCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumCell.m; sourceTree = "<group>"; };
+		3CF8C71B21194827009923BE /* HYNAssetPreviewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAssetPreviewItem.h; sourceTree = "<group>"; };
+		3CF8C71C21194827009923BE /* HYNAssetPreviewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAssetPreviewItem.m; sourceTree = "<group>"; };
+		3CF8C71E21194847009923BE /* HYNAssetPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAssetPreviewView.h; sourceTree = "<group>"; };
+		3CF8C71F21194847009923BE /* HYNAssetPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAssetPreviewView.m; sourceTree = "<group>"; };
+		3CF8C72121194865009923BE /* HYNPickerButtomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNPickerButtomView.h; sourceTree = "<group>"; };
+		3CF8C72221194865009923BE /* HYNPickerButtomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNPickerButtomView.m; sourceTree = "<group>"; };
+		3CF8C7242119489D009923BE /* HYNAlbumCatalogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbumCatalogViewController.h; sourceTree = "<group>"; };
+		3CF8C7252119489D009923BE /* HYNAlbumCatalogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumCatalogViewController.m; sourceTree = "<group>"; };
+		3CF8C727211948D1009923BE /* HYNAlbumCatalogCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbumCatalogCell.h; sourceTree = "<group>"; };
+		3CF8C728211948D1009923BE /* HYNAlbumCatalogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumCatalogCell.m; sourceTree = "<group>"; };
+		3CF8C72A211948FF009923BE /* HYNAlbumPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbumPickerViewController.h; sourceTree = "<group>"; };
+		3CF8C72B211948FF009923BE /* HYNAlbumPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumPickerViewController.m; sourceTree = "<group>"; };
+		3CF8C72D21194CC4009923BE /* HYNNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNNavigationController.h; sourceTree = "<group>"; };
+		3CF8C72E21194CC4009923BE /* HYNNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNNavigationController.m; sourceTree = "<group>"; };
+		3CF8C73121196990009923BE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3CF8C73421196AC2009923BE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AssetsLibrary.framework; sourceTree = "<group>"; };
+		3CF8C73621196BD2009923BE /* AlbumPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlbumPicker.bundle; sourceTree = "<group>"; };
+		3CF8C73821197859009923BE /* HYNAssetPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAssetPreviewViewController.h; sourceTree = "<group>"; };
+		3CF8C73921197859009923BE /* HYNAssetPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAssetPreviewViewController.m; sourceTree = "<group>"; };
+		3CF8C73C211997E3009923BE /* back_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_01@2x.png"; sourceTree = "<group>"; };
+		3CF8C73D211997E3009923BE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		3CF8C7402119994D009923BE /* select_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select_04@2x.png"; sourceTree = "<group>"; };
+		3CF8C7412119994D009923BE /* table_UnSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table_UnSelect@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF8C73221196991009923BE /* AssetsLibrary.framework in Frameworks */,
+				3CF8C73521196AC2009923BE /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +137,7 @@
 				3CF8C6EE211937C6009923BE /* HYNAlbumPickerTests */,
 				3CF8C6F9211937C6009923BE /* HYNAlbumPickerUITests */,
 				3CF8C6D4211937C3009923BE /* Products */,
+				3CF8C73021196990009923BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +154,9 @@
 		3CF8C6D5211937C3009923BE /* HYNAlbumPicker */ = {
 			isa = PBXGroup;
 			children = (
+				3CF8C73621196BD2009923BE /* AlbumPicker.bundle */,
+				3CF8C73321196AC2009923BE /* Framework */,
+				3CF8C73B211997E3009923BE /* Image */,
 				3CF8C70821193920009923BE /* AlbumPicker */,
 				3CF8C6D6211937C3009923BE /* AppDelegate.h */,
 				3CF8C6D7211937C3009923BE /* AppDelegate.m */,
@@ -136,9 +192,9 @@
 		3CF8C70821193920009923BE /* AlbumPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3CF8C70921193920009923BE /* Controller */,
 				3CF8C70A21193920009923BE /* Model */,
 				3CF8C70B21193920009923BE /* View */,
+				3CF8C70921193920009923BE /* Controller */,
 			);
 			path = AlbumPicker;
 			sourceTree = "<group>";
@@ -146,6 +202,14 @@
 		3CF8C70921193920009923BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3CF8C7242119489D009923BE /* HYNAlbumCatalogViewController.h */,
+				3CF8C7252119489D009923BE /* HYNAlbumCatalogViewController.m */,
+				3CF8C72A211948FF009923BE /* HYNAlbumPickerViewController.h */,
+				3CF8C72B211948FF009923BE /* HYNAlbumPickerViewController.m */,
+				3CF8C73821197859009923BE /* HYNAssetPreviewViewController.h */,
+				3CF8C73921197859009923BE /* HYNAssetPreviewViewController.m */,
+				3CF8C72D21194CC4009923BE /* HYNNavigationController.h */,
+				3CF8C72E21194CC4009923BE /* HYNNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +217,12 @@
 		3CF8C70A21193920009923BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3CF8C70C21194731009923BE /* HYNAlbum.h */,
+				3CF8C70D21194731009923BE /* HYNAlbum.m */,
+				3CF8C70F21194768009923BE /* HYNAlbumModel.h */,
+				3CF8C71021194768009923BE /* HYNAlbumModel.m */,
+				3CF8C71221194782009923BE /* HYNDelegateDataSource.h */,
+				3CF8C71321194782009923BE /* HYNDelegateDataSource.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,8 +230,45 @@
 		3CF8C70B21193920009923BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3CF8C727211948D1009923BE /* HYNAlbumCatalogCell.h */,
+				3CF8C728211948D1009923BE /* HYNAlbumCatalogCell.m */,
+				3CF8C71821194806009923BE /* HYNAlbumCell.h */,
+				3CF8C71921194806009923BE /* HYNAlbumCell.m */,
+				3CF8C71B21194827009923BE /* HYNAssetPreviewItem.h */,
+				3CF8C71C21194827009923BE /* HYNAssetPreviewItem.m */,
+				3CF8C71E21194847009923BE /* HYNAssetPreviewView.h */,
+				3CF8C71F21194847009923BE /* HYNAssetPreviewView.m */,
+				3CF8C72121194865009923BE /* HYNPickerButtomView.h */,
+				3CF8C72221194865009923BE /* HYNPickerButtomView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3CF8C73021196990009923BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8C73121196990009923BE /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF8C73321196AC2009923BE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8C73421196AC2009923BE /* AssetsLibrary.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		3CF8C73B211997E3009923BE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8C7402119994D009923BE /* select_04@2x.png */,
+				3CF8C7412119994D009923BE /* table_UnSelect@2x.png */,
+				3CF8C73C211997E3009923BE /* back_01@2x.png */,
+				3CF8C73D211997E3009923BE /* more.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +374,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF8C73E211997E3009923BE /* back_01@2x.png in Resources */,
 				3CF8C6E3211937C6009923BE /* LaunchScreen.storyboard in Resources */,
+				3CF8C73F211997E3009923BE /* more.png in Resources */,
+				3CF8C73721196BD2009923BE /* AlbumPicker.bundle in Resources */,
+				3CF8C7432119994D009923BE /* table_UnSelect@2x.png in Resources */,
 				3CF8C6E0211937C6009923BE /* Assets.xcassets in Resources */,
 				3CF8C6DE211937C3009923BE /* Main.storyboard in Resources */,
+				3CF8C7422119994D009923BE /* select_04@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +406,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF8C7262119489D009923BE /* HYNAlbumCatalogViewController.m in Sources */,
 				3CF8C6DB211937C3009923BE /* ViewController.m in Sources */,
+				3CF8C71D21194827009923BE /* HYNAssetPreviewItem.m in Sources */,
+				3CF8C71A21194806009923BE /* HYNAlbumCell.m in Sources */,
+				3CF8C73A21197859009923BE /* HYNAssetPreviewViewController.m in Sources */,
+				3CF8C71421194782009923BE /* HYNDelegateDataSource.m in Sources */,
+				3CF8C72F21194CC4009923BE /* HYNNavigationController.m in Sources */,
+				3CF8C70E21194731009923BE /* HYNAlbum.m in Sources */,
+				3CF8C71121194768009923BE /* HYNAlbumModel.m in Sources */,
 				3CF8C6E6211937C6009923BE /* main.m in Sources */,
+				3CF8C72021194847009923BE /* HYNAssetPreviewView.m in Sources */,
 				3CF8C6D8211937C3009923BE /* AppDelegate.m in Sources */,
+				3CF8C72321194865009923BE /* HYNPickerButtomView.m in Sources */,
+				3CF8C729211948D1009923BE /* HYNAlbumCatalogCell.m in Sources */,
+				3CF8C72C211948FF009923BE /* HYNAlbumPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,14 +589,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = P4W25RQ3FC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYNAlbumPicker/Framework",
+				);
 				INFOPLIST_FILE = HYNAlbumPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hyn.cn.HYNAlbumPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarthome.apns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1efa54fb-0122-4019-a64f-f83e869feb0a";
+				PROVISIONING_PROFILE_SPECIFIER = SmartHome_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -481,14 +612,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = P4W25RQ3FC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYNAlbumPicker/Framework",
+				);
 				INFOPLIST_FILE = HYNAlbumPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hyn.cn.HYNAlbumPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smarthome.apns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1efa54fb-0122-4019-a64f-f83e869feb0a";
+				PROVISIONING_PROFILE_SPECIFIER = SmartHome_Dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
