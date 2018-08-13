@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CF8C6D8211937C3009923BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6D7211937C3009923BE /* AppDelegate.m */; };
+		3C650A7A21211DD500BD48D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650A7721211DD500BD48D6 /* main.m */; };
+		3C650A7B21211DD500BD48D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650A7821211DD500BD48D6 /* AppDelegate.m */; };
+		3C650A80212121F800BD48D6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C650A7F212121F800BD48D6 /* Info.plist */; };
 		3CF8C6DB211937C3009923BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6DA211937C3009923BE /* ViewController.m */; };
 		3CF8C6DE211937C3009923BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C6DC211937C3009923BE /* Main.storyboard */; };
 		3CF8C6E0211937C6009923BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C6DF211937C6009923BE /* Assets.xcassets */; };
 		3CF8C6E3211937C6009923BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF8C6E1211937C6009923BE /* LaunchScreen.storyboard */; };
-		3CF8C6E6211937C6009923BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6E5211937C6009923BE /* main.m */; };
 		3CF8C6F0211937C6009923BE /* HYNAlbumPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6EF211937C6009923BE /* HYNAlbumPickerTests.m */; };
 		3CF8C6FB211937C6009923BE /* HYNAlbumPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C6FA211937C6009923BE /* HYNAlbumPickerUITests.m */; };
 		3CF8C70E21194731009923BE /* HYNAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C70D21194731009923BE /* HYNAlbum.m */; };
@@ -54,16 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C650A7621211DD500BD48D6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C650A7721211DD500BD48D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C650A7821211DD500BD48D6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C650A7E21211F3E00BD48D6 /* HYNAlbumPicker.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAlbumPicker.pch; sourceTree = "<group>"; };
+		3C650A7F212121F800BD48D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CF8C6D3211937C3009923BE /* HYNAlbumPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYNAlbumPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CF8C6D6211937C3009923BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3CF8C6D7211937C3009923BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3CF8C6D9211937C3009923BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3CF8C6DA211937C3009923BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3CF8C6DD211937C3009923BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF8C6DF211937C6009923BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF8C6E2211937C6009923BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3CF8C6E4211937C6009923BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CF8C6E5211937C6009923BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF8C6EB211937C6009923BE /* HYNAlbumPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYNAlbumPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF8C6EF211937C6009923BE /* HYNAlbumPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAlbumPickerTests.m; sourceTree = "<group>"; };
 		3CF8C6F1211937C6009923BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +132,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C650A7521211DD500BD48D6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3C650A7621211DD500BD48D6 /* AppDelegate.h */,
+				3C650A7721211DD500BD48D6 /* main.m */,
+				3C650A7821211DD500BD48D6 /* AppDelegate.m */,
+				3C650A7E21211F3E00BD48D6 /* HYNAlbumPicker.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		3CF8C6CA211937C3009923BE = {
 			isa = PBXGroup;
 			children = (
@@ -158,15 +171,13 @@
 				3CF8C73321196AC2009923BE /* Framework */,
 				3CF8C73B211997E3009923BE /* Image */,
 				3CF8C70821193920009923BE /* AlbumPicker */,
-				3CF8C6D6211937C3009923BE /* AppDelegate.h */,
-				3CF8C6D7211937C3009923BE /* AppDelegate.m */,
+				3C650A7521211DD500BD48D6 /* Other */,
 				3CF8C6D9211937C3009923BE /* ViewController.h */,
 				3CF8C6DA211937C3009923BE /* ViewController.m */,
 				3CF8C6DC211937C3009923BE /* Main.storyboard */,
+				3C650A7F212121F800BD48D6 /* Info.plist */,
 				3CF8C6DF211937C6009923BE /* Assets.xcassets */,
 				3CF8C6E1211937C6009923BE /* LaunchScreen.storyboard */,
-				3CF8C6E4211937C6009923BE /* Info.plist */,
-				3CF8C6E5211937C6009923BE /* main.m */,
 			);
 			path = HYNAlbumPicker;
 			sourceTree = "<group>";
@@ -376,6 +387,7 @@
 			files = (
 				3CF8C73E211997E3009923BE /* back_01@2x.png in Resources */,
 				3CF8C6E3211937C6009923BE /* LaunchScreen.storyboard in Resources */,
+				3C650A80212121F800BD48D6 /* Info.plist in Resources */,
 				3CF8C73F211997E3009923BE /* more.png in Resources */,
 				3CF8C73721196BD2009923BE /* AlbumPicker.bundle in Resources */,
 				3CF8C7432119994D009923BE /* table_UnSelect@2x.png in Resources */,
@@ -412,13 +424,13 @@
 				3CF8C71A21194806009923BE /* HYNAlbumCell.m in Sources */,
 				3CF8C73A21197859009923BE /* HYNAssetPreviewViewController.m in Sources */,
 				3CF8C71421194782009923BE /* HYNDelegateDataSource.m in Sources */,
+				3C650A7A21211DD500BD48D6 /* main.m in Sources */,
 				3CF8C72F21194CC4009923BE /* HYNNavigationController.m in Sources */,
 				3CF8C70E21194731009923BE /* HYNAlbum.m in Sources */,
 				3CF8C71121194768009923BE /* HYNAlbumModel.m in Sources */,
-				3CF8C6E6211937C6009923BE /* main.m in Sources */,
 				3CF8C72021194847009923BE /* HYNAssetPreviewView.m in Sources */,
-				3CF8C6D8211937C3009923BE /* AppDelegate.m in Sources */,
 				3CF8C72321194865009923BE /* HYNPickerButtomView.m in Sources */,
+				3C650A7B21211DD500BD48D6 /* AppDelegate.m in Sources */,
 				3CF8C729211948D1009923BE /* HYNAlbumCatalogCell.m in Sources */,
 				3CF8C72C211948FF009923BE /* HYNAlbumPickerViewController.m in Sources */,
 			);
@@ -595,6 +607,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HYNAlbumPicker/Framework",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HYNAlbumPicker/Other/HYNAlbumPicker.pch;
 				INFOPLIST_FILE = HYNAlbumPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -618,6 +632,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HYNAlbumPicker/Framework",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HYNAlbumPicker/Other/HYNAlbumPicker.pch;
 				INFOPLIST_FILE = HYNAlbumPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
