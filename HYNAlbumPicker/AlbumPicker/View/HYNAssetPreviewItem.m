@@ -7,14 +7,6 @@
 //
 
 #import "HYNAssetPreviewItem.h"
-#define ScreenSize [UIScreen mainScreen].bounds.size
-#define kThumbnailLength    ([UIScreen mainScreen].bounds.size.width - 5*5)/4
-#define kThumbnailSize      CGSizeMake(kThumbnailLength, kThumbnailLength)
-#define DistanceFromTopGuiden(view) (view.frame.origin.y + view.frame.size.height)
-#define DistanceFromLeftGuiden(view) (view.frame.origin.x + view.frame.size.width)
-#define ViewOrigin(view)   (view.frame.origin)
-#define ViewSize(view)  (view.frame.size)
-
 @interface HYNAssetPreviewItem ()<UIScrollViewDelegate>
 @property (nonatomic,strong) UIScrollView *previewScrollView;
 @property (nonatomic,strong) UIImageView *assetImageView;

@@ -1,0 +1,56 @@
+//
+//  HYNAlbumPicker.pch
+//  HYNAlbumPicker
+//
+//  Created by King on 2018/8/13.
+//  Copyright © 2018年 King. All rights reserved.
+//
+
+#ifndef HYNAlbumPicker_pch
+#define HYNAlbumPicker_pch
+
+#define kStatusBarHeight   (kDevice_Is_iPhoneX ? (44.0):(20.0))
+#define kTopBarHeight      (44.f)
+#define kBottomBarHeight   (kDevice_Is_iPhoneX ? (49.f+34.f):(49.f))
+#define kBottomButtonHeight   (48.f)
+#define kCellDefaultHeight (44.f)
+
+//是否是iPhoneX
+#define kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+//MainScreen主屏幕的高度和宽度
+#define kScreenHeight (kDevice_Is_iPhoneX ? ([[UIScreen mainScreen] bounds].size.height - 34.0):([[UIScreen mainScreen] bounds].size.height))
+#define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
+
+//主屏Size
+#define ScreenSize [UIScreen mainScreen].bounds.size
+
+//RGB颜色转换（16进制->10进制）
+#define UIColorFromRGB(rgbValue)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromRGBBoth(rgbValue,a)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+#define ViewSize(view)  (view.frame.size)
+#define ViewOrigin(view)   (view.frame.origin)
+
+
+//图片选择器宏
+#define cellSize 72
+#define SPEEDBASE 20
+#define numOfimg 20
+#define kStatusBarHeight   (kDevice_Is_iPhoneX ? (44.0):(20.0))
+#define kTopBarHeight      (44.f)
+#define kBottomBarHeight   (kDevice_Is_iPhoneX ? (49.f+34.f):(49.f))
+#define kBottomButtonHeight   (48.f)
+#define kCellDefaultHeight (44.f)
+#define kThumbnailLength    ([UIScreen mainScreen].bounds.size.width - 5*5)/4
+#define kThumbnailSize      CGSizeMake(kThumbnailLength, kThumbnailLength)
+#define DistanceFromTopGuiden(view) (view.frame.origin.y + view.frame.size.height)
+#define DistanceFromLeftGuiden(view) (view.frame.origin.x + view.frame.size.width)
+
+//分批加载相册图片
+//#define kBatchLoadSystemPhotoAlbum 1
+#define kBatchLoadSystemPhotoAlbum 0
+//是否显示全选
+#define kUploadSelectAll 1
+//#define kUploadSelectAll 0
+
+#endif /* HYNAlbumPicker_pch */

@@ -10,10 +10,6 @@
 #import "HYNAssetPreviewView.h"
 #import "HYNAssetPreviewItem.h"
 #import "HYNAlbumModel.h"
-#define kScreenHeight (kDevice_Is_iPhoneX ? ([[UIScreen mainScreen] bounds].size.height - 34.0):([[UIScreen mainScreen] bounds].size.height))
-#define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
-#define ViewSize(view)  (view.frame.size)
-#define ScreenSize [UIScreen mainScreen].bounds.size
 @interface HYNAssetPreviewViewController ()<UIScrollViewDelegate,HYNAssetPreviewNavBarDelegate,HYNAssetPreviewToolBarDelegate,HYNAssetPreviewItemDelegate>
 @property (nonatomic,strong)UIScrollView *previewScrollView;
 @property (nonatomic,strong) HYNAssetPreviewNavBar *previewNavBar;

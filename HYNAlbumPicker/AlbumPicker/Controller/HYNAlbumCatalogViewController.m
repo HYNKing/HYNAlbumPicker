@@ -10,19 +10,6 @@
 #import "HYNAlbum.h"
 #import "HYNDelegateDataSource.h"
 #import "HYNAlbumPickerViewController.h"
-#define kStatusBarHeight   (kDevice_Is_iPhoneX ? (44.0):(20.0))
-#define kTopBarHeight      (44.f)
-#define kBottomBarHeight   (kDevice_Is_iPhoneX ? (49.f+34.f):(49.f))
-#define kBottomButtonHeight   (48.f)
-#define kCellDefaultHeight (44.f)
-
-#define UIColorFromRGBBoth(rgbValue,a)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
-
-#define kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define kScreenHeight (kDevice_Is_iPhoneX ? ([[UIScreen mainScreen] bounds].size.height - 34.0):([[UIScreen mainScreen] bounds].size.height))
-#define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
-#define ViewSize(view)  (view.frame.size)
-
 @interface HYNAlbumCatalogViewController ()<UITableViewDelegate,HYNAlbumPickerDelegate,HYNAlbumpPickerIsCmpressDelegate>
 @property (nonatomic,strong) UITableView *albumTabView;
 @property (nonatomic,strong) HYNDelegateDataSource *albumDelegateDataSource;

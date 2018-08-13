@@ -8,7 +8,6 @@
 
 #import "HYNAssetPreviewView.h"
 #import "HYNPickerButtomView.h"
-#define ViewSize(view)  (view.frame.size)
 @interface HYNAssetPreviewNavBar()
 @property (nonatomic,strong) UIButton *backButton;
 
@@ -74,13 +73,6 @@
     [self.selectButton setFrame:CGRectMake(ViewSize(self).width-60, (ViewSize(self).height-40)/2, 60, 40)];
     [self.backButton setFrame:CGRectMake(0, (ViewSize(self).height-40)/2, 40, 40)];
 }
-/*
- // Only override drawRect: if you perform custom drawing.
- // An empty implementation adversely affects performance during animation.
- - (void)drawRect:(CGRect)rect {
- // Drawing code
- }
- */
 
 @end
 

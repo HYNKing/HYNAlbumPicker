@@ -13,33 +13,6 @@
 #import "HYNAssetPreviewViewController.h"
 static NSString * const kAlbumCellIdentifer = @"albumCellIdentifer";
 static NSString * const kAlbumCatalogCellIdentifer = @"albumCatalogCellIdentifer";
-//控制是否分批加载系统相册图片
-#define kBatchLoadSystemPhotoAlbum 1
-//#define kBatchLoadSystemPhotoAlbum 0
-#define kUploadSelectAll 1
-//#define kUploadSelectAll 0
-
-
-#define cellSize 72
-#define SPEEDBASE 20
-#define numOfimg 20
-#define kStatusBarHeight   (kDevice_Is_iPhoneX ? (44.0):(20.0))
-#define kTopBarHeight      (44.f)
-#define kBottomBarHeight   (kDevice_Is_iPhoneX ? (49.f+34.f):(49.f))
-#define kBottomButtonHeight   (48.f)
-#define kCellDefaultHeight (44.f)
-#define ViewSize(view)  (view.frame.size)
-#define kThumbnailLength    ([UIScreen mainScreen].bounds.size.width - 5*5)/4
-#define kThumbnailSize      CGSizeMake(kThumbnailLength, kThumbnailLength)
-#define DistanceFromTopGuiden(view) (view.frame.origin.y + view.frame.size.height)
-#define DistanceFromLeftGuiden(view) (view.frame.origin.x + view.frame.size.width)
-
-#define kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define kScreenHeight (kDevice_Is_iPhoneX ? ([[UIScreen mainScreen] bounds].size.height - 34.0):([[UIScreen mainScreen] bounds].size.height))
-#define kScreenWidth  [[UIScreen mainScreen] bounds].size.width
-#define ViewSize(view)  (view.frame.size)
-#define UIColorFromRGBBoth(rgbValue,a)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
-
 @interface HYNAlbumPickerViewController () <UICollectionViewDelegate,HYNPickerButtomViewDelegate,HYNAssetPreviewDelegate>
 {
     UIView *view;
@@ -612,7 +585,7 @@ static NSString * const kAlbumCatalogCellIdentifer = @"albumCatalogCellIdentifer
 //        [[LSYAlbum sharedAlbum] setupAlbumAssets:self.group andWithCurrentIndex:_currentIndex andWithTargetCount:_targetCount withAssets:^(NSMutableArray *assets) {
 //            if (assets.count >0) {
 //                _currentIndex = _currentIndex - _targetCount;
-//                if ([_rightItem.title isEqualToString:[IOTHZYUserChooseLanguageManager readTextByBundle:@"全不选"]]) {
+//                if ([_rightItem.title isEqualToString:[IOTHZYUserChooseLanguageManager readTextByBundle:@"取消全选"]]) {
 //                    for (NSUInteger index = 0; index < assets.count; ++index) {
 //                        NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index + self.albumAssets.count inSection:0];
 //                        LSYAlbumModel *model = assets[index];
@@ -688,7 +661,7 @@ static NSString * const kAlbumCatalogCellIdentifer = @"albumCatalogCellIdentifer
         int  number =  (int)self.albumAssets.count ;
         //        [self.pickerButtomView setSendNumber:number];
         self.selectNumbers = number;
-        [btn setTitle:@"全不选"];
+        [btn setTitle:@"取消全选"];
         [_albumView reloadData];
     }else{
         for (HYNAlbumModel *model in self.albumAssets) {
@@ -713,7 +686,7 @@ static NSString * const kAlbumCatalogCellIdentifer = @"albumCatalogCellIdentifer
 {
     _selectNumbers = selectNumbers;
     if (_selectNumbers == self.albumAssets.count) {
-        [_rightItem setTitle:@"全不选"];
+        [_rightItem setTitle:@"取消全选"];
     }else{
         [_rightItem setTitle:@"全选"];
     }
